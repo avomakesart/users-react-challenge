@@ -1,0 +1,17 @@
+.grid-wrapper {
+  display: grid;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 3rem
+}
+@media (min-width:640px) {
+  .grid-wrapper {
+    grid-template-columns: repeat(2,minmax(0,1fr))
+  }
+}
+@media (min-width:1024px) {
+  .grid-wrapper {
+    max-width: 1024px;
+    grid-template-columns: repeat(4,minmax(0,1fr))
+  }
+}

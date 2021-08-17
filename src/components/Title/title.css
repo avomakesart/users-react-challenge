@@ -1,0 +1,39 @@
+.title-container {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2.5rem
+}
+
+@media (min-width:640px) {
+  .title-container {
+    text-align: center
+  }
+}
+
+.title {
+  font-weight: 900;
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  margin-bottom: .5rem;
+  --tw-text-opacity: 1;
+  color: rgba(0, 0, 0, var(--tw-text-opacity));
+  letter-spacing: -.05em
+}
+
+@media (min-width:768px) {
+  .title {
+    font-size: 2.25rem;
+    line-height: 2.5rem
+  }
+}
+
+@media (min-width:1024px) {
+  .title-container {
+    max-width: 36rem
+  }
+
+  .title {
+    font-size: 3rem;
+    line-height: 1
+  }
+}

@@ -1,0 +1,24 @@
+.user-image-container {
+    border-radius: .25rem;
+    margin-bottom: 1rem;
+    padding-bottom: 14rem;
+    position: relative;
+    --tw-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+    -webkit-box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)
+}
+
+.user-image {
+    border-radius: .25rem;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    position: absolute;
+    width: 100%
+}
+
+@media (min-width:1024px) {
+    .user-image-container {
+        padding-bottom: 16rem
+    }
+}
